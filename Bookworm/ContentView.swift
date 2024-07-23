@@ -30,7 +30,10 @@ struct ContentView: View {
     @State private var rememberMe = false
 
     var body: some View {
-        Toggle("Remember Me", isOn: $rememberMe)
+        VStack {
+                    PushButton(title: "Remember Me", isOn: rememberMe)
+                    Text(rememberMe ? "On" : "Off")
+                }
     }
 }
 
