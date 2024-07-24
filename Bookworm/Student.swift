@@ -4,6 +4,7 @@
 //
 //  Created by Hina Khan on 24/07/2024.
 //
+import SwiftData
 
 
 @Observable
