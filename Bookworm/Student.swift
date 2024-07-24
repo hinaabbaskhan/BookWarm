@@ -7,7 +7,7 @@
 import SwiftData
 
 
-@Observable
+@Model
 class Student {
     var id: UUID
     var name: String
