@@ -42,6 +42,7 @@ struct PushButton: View {
 struct ContentView: View {
     @AppStorage("notes") private var notes = ""
     @Query var students: [Student]
+    @Environment(\.modelContext) var modelContext
 
     var body: some View {
         NavigationStack {
