@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct PushButton: View {
     let title: String
@@ -40,6 +41,7 @@ struct PushButton: View {
 
 struct ContentView: View {
     @AppStorage("notes") private var notes = ""
+    @Query var students: [Student]
 
     var body: some View {
         NavigationStack {
