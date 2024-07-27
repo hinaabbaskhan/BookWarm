@@ -59,6 +59,7 @@ struct ContentView: View {
                     let chosenLastName = lastNames.randomElement()!
 
                     let student = Student(id: UUID(), name: "\(chosenFirstName) \(chosenLastName)")
+                    modelContext.insert(student)
                 }
             }
         }
