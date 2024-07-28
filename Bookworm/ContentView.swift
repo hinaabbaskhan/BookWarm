@@ -45,6 +45,12 @@ struct ContentView: View {
     @Environment(\.modelContext) var modelContext
 
     var body: some View {
+//        NavigationStack {
+//            TextField("Enter your text", text: $notes, axis: .vertical)
+//                .textFieldStyle(.roundedBorder)
+//                .navigationTitle("Notes")
+//                .padding()
+//        }
         NavigationStack {
             List(students) { student in
                 Text(student.name)
