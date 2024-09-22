@@ -14,6 +14,8 @@
 		1809E90E2C4C45D800696E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1809E90D2C4C45D800696E3C /* Assets.xcassets */; };
 		1809E9112C4C45D800696E3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1809E9102C4C45D800696E3C /* Preview Assets.xcassets */; };
 		18659CD22C51714D00863D02 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18659CD12C51714C00863D02 /* Student.swift */; };
+		18D218842CA0142F0071983A /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D218832CA0142F0071983A /* RatingView.swift */; };
+		18D218862CA03A490071983A /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D218852CA03A480071983A /* EmojiRatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		1809E90D2C4C45D800696E3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1809E9102C4C45D800696E3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		18659CD12C51714C00863D02 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		18D218832CA0142F0071983A /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		18D218852CA03A480071983A /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 			children = (
 				1809E9092C4C45D600696E3C /* BookwormApp.swift */,
 				1809E90B2C4C45D600696E3C /* ContentView.swift */,
+				18D218832CA0142F0071983A /* RatingView.swift */,
+				18D218852CA03A480071983A /* EmojiRatingView.swift */,
 				180348F42C56C8FB0030CD07 /* AddBookView.swift */,
 				18659CD12C51714C00863D02 /* Student.swift */,
 				1809E90D2C4C45D800696E3C /* Assets.xcassets */,
@@ -148,7 +154,9 @@
 			files = (
 				180348F32C56C7D30030CD07 /* Book.swift in Sources */,
 				1809E90C2C4C45D600696E3C /* ContentView.swift in Sources */,
+				18D218862CA03A490071983A /* EmojiRatingView.swift in Sources */,
 				18659CD22C51714D00863D02 /* Student.swift in Sources */,
+				18D218842CA0142F0071983A /* RatingView.swift in Sources */,
 				1809E90A2C4C45D600696E3C /* BookwormApp.swift in Sources */,
 				180348F52C56C8FB0030CD07 /* AddBookView.swift in Sources */,
 			);
