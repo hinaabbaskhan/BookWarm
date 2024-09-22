@@ -13,7 +13,7 @@ struct BookwormApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-        }.modelContainer(for: Student.self).modelContainer(for: Book.self)
+        }.modelContainer(for: Book.self)
 
 
     }
