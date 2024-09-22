@@ -16,6 +16,7 @@
 		18659CD22C51714D00863D02 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18659CD12C51714C00863D02 /* Student.swift */; };
 		18D218842CA0142F0071983A /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D218832CA0142F0071983A /* RatingView.swift */; };
 		18D218862CA03A490071983A /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D218852CA03A480071983A /* EmojiRatingView.swift */; };
+		18D218882CA03DDD0071983A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D218872CA03DDD0071983A /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		18659CD12C51714C00863D02 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		18D218832CA0142F0071983A /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		18D218852CA03A480071983A /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
+		18D218872CA03DDD0071983A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			children = (
 				1809E9092C4C45D600696E3C /* BookwormApp.swift */,
 				1809E90B2C4C45D600696E3C /* ContentView.swift */,
+				18D218872CA03DDD0071983A /* DetailView.swift */,
 				18D218832CA0142F0071983A /* RatingView.swift */,
 				18D218852CA03A480071983A /* EmojiRatingView.swift */,
 				180348F42C56C8FB0030CD07 /* AddBookView.swift */,
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				180348F32C56C7D30030CD07 /* Book.swift in Sources */,
+				18D218882CA03DDD0071983A /* DetailView.swift in Sources */,
 				1809E90C2C4C45D600696E3C /* ContentView.swift in Sources */,
 				18D218862CA03A490071983A /* EmojiRatingView.swift in Sources */,
 				18659CD22C51714D00863D02 /* Student.swift in Sources */,
