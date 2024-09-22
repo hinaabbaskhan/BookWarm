@@ -40,8 +40,6 @@ struct PushButton: View {
 //}
 
 struct ContentView: View {
-    @AppStorage("notes") private var notes = ""
-    @Query var students: [Student]
     @Environment(\.modelContext) var modelContext
     @Query var books: [Book]
     @State private var showingAddScreen = false
