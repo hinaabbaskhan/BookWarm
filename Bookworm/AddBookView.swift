@@ -15,6 +15,7 @@ struct AddBookView: View {
     @State private var genre = "Fantasy"
     @State private var review = ""
     @Environment(\.dismiss) var dismiss
+
     let genres = ["Fantasy", "Horror", "Kids", "Mystery", "Poetry", "Romance", "Thriller"]
 
     var body: some View {
@@ -33,18 +34,27 @@ struct AddBookView: View {
 
                 Section("Write a review") {
                     TextEditor(text: $review)
+                    RatingView(rating: $rating)
 
-                    Picker("Rating", selection: $rating) {
-                        ForEach(0..<6) {
-                            Text(String($0))
-                        }
-                    }
+//                    Picker("Rating", selection: $rating) {
+//                        ForEach(0..<6) {
+//                            Text(String($0))
+//                        }
+//                    }
                 }
+                
+                
 
                 Section {
                     Button("Save") {
-                        let newBook = Book(title: title, author: author, genre: genre, review: review, rating: rating)
+                        let newBook = Book(
+                            title: title,
+                            author: author,
+                            genre: genre,
+                            review: review,
+                            rating: rating)
                         modelContext.insert(newBook)
+                        dismiss()
                     }
                 }
             }
