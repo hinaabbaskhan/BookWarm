@@ -15,6 +15,10 @@ In this project, you will learn:
 - How to create custom user interface elements in SwiftUI.
 - How to use property wrappers like @Binding to manage state.
 
+## Demo
+https://github.com/user-attachments/assets/aa84437a-788f-491a-a56f-020f970d0291
+
+
   
 
 
